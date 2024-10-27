@@ -1,0 +1,60 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ #id_amd_metadescription,#id_amd_metatitle{
+    display: block;
+    margin: 12px 0 0;
+    width: 100%;
+ }
+ #id_amd_metadescription{height: 4em;}
+ .amd_red_color{color:red}
+ .amd_green_color{color:green}
+ .amd_background_color_red{background-color:red}
+ .amd_background_color_orange{background-color:orange}
+ .amd_background_color_green{background-color:green}
+ .amd_background_color_grey{background-color:grey}
+ .badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+.table-amdadpu-list-post-pages{
+margin-left: .5em;
+margin-top:1em;
+}
+.table-amdadpu-list-post-pages.striped>tbody>:nth-child(odd){
+    background-color: #efefef;
+}
+.table-amdadpu-list-post-pages.widefat td {
+    padding: 15px;
+}
+.table-amdadpu-list-post-pages.widefat th{background-color:#dbdbdb;border-right:1px solid #e5e5e5}
+.table-amdadpu-list-post-pages.widefat td{border-right:1px solid #e5e5e5}
+.table-amdadpu-list-post-pages.widefat th:last-child,.table-amdadpu-list-post-pages.widefat td:last-child{border-right:0}
+.amd_nav_before,.amd_nav_next{margin-left: .5em;margin-top:1em;}
+#wpwrap p.amd_num_pages{margin-left: .5em;margin-top:1em;width:auto;display:block;}
+.amd_meta_description_facts,.amd_title_tags_facts{margin: 1em .5em; border:1px solid #ccc;padding:1em;background-color:white;}
+.amd_badge {
+    display: inline-block;
+    min-width: 20px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 20px;
+}
+h2.amd_title_facts{margin:0 0 .75em 0}
+.amd_margin-right{margin-right:1em}
